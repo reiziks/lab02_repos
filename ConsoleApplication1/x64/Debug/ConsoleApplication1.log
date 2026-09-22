@@ -1,3 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-D:\vs\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,12): warning C4101: 'z2': unreferenced local variable
+D:\vs\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,9): warning C4552: '-': result of expression not used
+D:\vs\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(17,12): warning C4101: 'z1': unreferenced local variable
   ConsoleApplication1.vcxproj -> D:\vs\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

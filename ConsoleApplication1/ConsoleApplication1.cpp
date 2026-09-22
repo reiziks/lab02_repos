@@ -20,15 +20,15 @@ int main()
     cout << "alpha = "; cin >> alpha;
 
     // z1 = cos^2(3*Pi/8 - alpha/4) - cos^2(11*Pi/8 + alpha/4)
-    z1 = ((cos(3 * Pi / 8 - alpha / 4) * (cos(3 * Pi / 8 - alpha / 4))))
+    //z1 = ((cos(3 * Pi / 8 - alpha / 4) * (cos(3 * Pi / 8 - alpha / 4))))
         - (cos(11 * Pi / 8 + alpha / 4) * (cos(11 * Pi / 8 + alpha / 4)));
 
     // z2 = (sqrt(2)/2) * sin(alpha/2)
-    //z2 = sqrt(2.0) / 2 * sin(alpha / 2);
+    z2 = sqrt(2.0) / 2 * sin(alpha / 2);
 
     cout << endl;
-    cout << "z1 = " << z1 << endl;
-   // cout << "z2 = " << z2 << endl;
+    //cout << "z1 = " << z1 << endl;
+    cout << "z2 = " << z2 << endl;
 
     cin.get();
     cin.get();
